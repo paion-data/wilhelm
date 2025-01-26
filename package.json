@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QubitPi/wilhelm.git"
+    "url": "git+https://github.com/paion-data/wilhelm.git"
   },
   "author": "Jiaqi Liu",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/QubitPi/wilhelm/issues"
+    "url": "https://github.com/paion-data/wilhelm/issues"
   },
-  "homepage": "https://github.com/QubitPi/wilhelm#readme",
+  "homepage": "https://github.com/paion-data/wilhelm#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "@sentry/react": "^8.51.0",

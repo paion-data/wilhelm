@@ -1,20 +1,20 @@
 # Wilhelm
 
 <div align="center">
-    <a href="https://github.com/QubitPi/wilhelm/actions/workflows/ci-cd.yaml"><img src="https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD" alt="CI/CD"/></a>
-    <a href="https://paion-data.sentry.io/issues/?project=4508210539528192"><img src="https://img.shields.io/badge/Application%20Monitoring-362D59.svg?style=for-the-badge&logo=sentry&logoColor=white" alt="sentry.io"/></a>
+    <a href="https://github.com/paion-data/wilhelm/actions/workflows/ci-cd.yaml"><img src="https://img.shields.io/github/actions/workflow/status/paion-data/wilhelm/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD" alt="CI/CD"/></a>
+    <a href="https://paion-data.sentry.io/issues/?project=4508708551655424"><img src="https://img.shields.io/badge/Application%20Monitoring-362D59.svg?style=for-the-badge&logo=sentry&logoColor=white" alt="sentry.io"/></a>
     <img src="https://img.shields.io/badge/NODE-18-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge" alt="Node 18"/>
     <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/webpack-8DD6F9?logo=webpack&logoColor=white&style=for-the-badge" alt="webpack"/>
     <a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/Yarn%202-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn 2"/></a>
     <a href="https://eslint.org/"><img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint"/></a>
     <a href="https://prettier.io/"><img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier"/></a>
-    <a href="https://jest.qubitpi.org/"><img src="https://img.shields.io/badge/Jest%20Unit%20Tests-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"/></a>
-    <a href="https://cypress.qubitpi.org"><img src="https://img.shields.io/badge/Cypress%20E2E-69D3A7?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress"/></a>
+    <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest%20Unit%20Tests-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"/></a>
+    <a href="https://www.cypress.io/"><img src="https://img.shields.io/badge/Cypress%20E2E-69D3A7?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress"/></a>
     <a href="https://developer.chrome.com/docs/lighthouse/overview"><img src="https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Lighthouse"/></a>
     <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white" alt="Apache License"/></a>
     <br/>
-    <a href="https://app.argos-ci.com/qubitpi/wilhelm/reference"><img src="https://argos-ci.com/badge-large.svg" alt="Argos Visual Testing"/></a>
+    <a href="https://app.argos-ci.com/qubitpi/paion-data-wilhelm/reference"><img src="https://argos-ci.com/badge-large.svg" alt="Argos Visual Testing"/></a>
 </div>
 
 <!-- TOC -->
@@ -34,7 +34,7 @@
 2. Utilizing knowledge graph to visualize connections among Indo-European languages which greatly make multilingual
    study much more efficient
 
-Please check out the app on [wilhelm.qubitpi.org](https://wilhelm.qubitpi.org/)
+Please check out the app on [wilhelmlang.com](https://wilhelmlang.com/)
 
 ## How Did Project Wilhelm Start
 
@@ -95,7 +95,7 @@ Wilhelm has the following packages:
 ### Getting Source Code
 
 ```console
-git clone git@github.com:QubitPi/wilhelm.git
+git clone git@github.com:paion-data/wilhelm.git
 cd wilhelm
 ```
 
@@ -136,7 +136,7 @@ yarn prettier --ignore-path .gitignore . --write
 
 ## Application Monitoring
 
-sentry.io has been integrated into the [wilhelm.qubitpi.org](https://wilhelm.qubitpi.org/). Specifically:
+sentry.io has been integrated into the [wilhelmlang.com](https://wilhelmlang.com/). Specifically:
 
 - [sourcemap](https://docs.sentry.io/platforms/javascript/legacy-sdk/sourcemaps/) is uploaded to sentry during build time
 - error trace are sent to sentry during run time
@@ -154,14 +154,7 @@ required for `yarn build` to be able to generate and upload the sourcemap.
 
 The use and distribution terms for [wilhelm]() are covered by the [Apache License, Version 2.0](./LICENSE).
 
-[Redux]: https://react-redux.qubitpi.org/
-[useState]: https://react.qubitpi.org/reference/react/useState
-[Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
-[Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white
-[Cypress]: https://cypress.qubitpi.org/
-[GitHub workflow status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/wilhelm/ci-cd.yaml?branch=master&style=for-the-badge&logo=github&logoColor=white&label=CI/CD
-[GitHub workflow status URL]: https://github.com/QubitPi/wilhelm/actions/workflows/ci-cd.yaml
-[node version badge]: https://img.shields.io/badge/NODE-18-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge
-[sentry badge]: https://img.shields.io/badge/sentry.io-362D59?logo=sentry&logoColor=white&&style=for-the-badge
+[Redux]: https://react-redux.js.org/
+[useState]: https://react.dev/reference/react/useState
 
 [^1]: https://tex.stackexchange.com/a/163342/277953

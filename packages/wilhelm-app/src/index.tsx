@@ -1,5 +1,5 @@
 /**
- * Copyright 2025 Jiaqi Liu. All rights reserved.
+ * Copyright 2025 Paion Data. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import * as Sentry from "@sentry/react";
 
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
-    dsn: "https://f1e4d60249517cd3d81f7badabf68d61@o4505480921022464.ingest.us.sentry.io/4508210539528192",
+    dsn: "https://9a5d07cdfbb34b42e374b152e5f555a1@o4505480921022464.ingest.us.sentry.io/4508708551655424",
     integrations: [Sentry.browserTracingIntegration(), Sentry.replayIntegration()],
     tracesSampleRate: 1.0,
     tracePropagationTargets: ["localhost", /^https:\/\/wilhelmlang\.com/],
